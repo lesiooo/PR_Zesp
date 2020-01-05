@@ -1,0 +1,111 @@
+Period: 0, idle time: 74
+Task ID: 0, task income: 69, task start: 69, task end: 89, delay: False
+Task ID: 1, task income: 93, task start: 93, task end: 105, delay: False
+Period: 1, idle time: 90
+Task ID: 0, task income: 89, task start: 89, task end: 101, delay: False
+Task ID: 1, task income: 90, task start: 101, task end: 113, delay: False
+Task ID: 2, task income: 92, task start: 113, task end: 132, delay: True
+Period: 2, idle time: 7
+Task ID: 0, task income: 6, task start: 6, task end: 22, delay: False
+Task ID: 1, task income: 12, task start: 22, task end: 40, delay: False
+Task ID: 2, task income: 23, task start: 40, task end: 54, delay: False
+Task ID: 3, task income: 31, task start: 54, task end: 74, delay: True
+Task ID: 4, task income: 38, task start: 74, task end: 90, delay: True
+Task ID: 5, task income: 47, task start: 90, task end: 107, delay: True
+Task ID: 6, task income: 61, task start: 107, task end: 117, delay: True
+Task ID: 7, task income: 67, task start: 117, task end: 130, delay: True
+Task ID: 8, task income: 73, task start: 130, task end: 141, delay: True
+Task ID: 9, task income: 75, task start: 141, task end: 158, delay: True
+Task ID: 10, task income: 82, task start: 158, task end: 169, delay: True
+Task ID: 11, task income: 87, task start: 169, task end: 185, delay: True
+Period: 3, idle time: 17
+Task ID: 0, task income: 4, task start: 4, task end: 22, delay: False
+Task ID: 1, task income: 31, task start: 31, task end: 47, delay: False
+Task ID: 2, task income: 50, task start: 50, task end: 60, delay: False
+Task ID: 3, task income: 53, task start: 60, task end: 75, delay: False
+Task ID: 4, task income: 58, task start: 75, task end: 90, delay: False
+Task ID: 5, task income: 86, task start: 90, task end: 108, delay: False
+Task ID: 6, task income: 90, task start: 108, task end: 120, delay: False
+Task ID: 7, task income: 90, task start: 120, task end: 137, delay: True
+Period: 4, idle time: 17
+Task ID: 0, task income: 13, task start: 13, task end: 27, delay: False
+Task ID: 1, task income: 14, task start: 27, task end: 43, delay: False
+Task ID: 2, task income: 46, task start: 46, task end: 65, delay: False
+Task ID: 3, task income: 62, task start: 65, task end: 82, delay: False
+Task ID: 4, task income: 74, task start: 82, task end: 93, delay: False
+Period: 5, idle time: 98
+Task ID: 0, task income: 97, task start: 97, task end: 107, delay: False
+Period: 6, idle time: 56
+Task ID: 0, task income: 55, task start: 55, task end: 67, delay: False
+Task ID: 1, task income: 60, task start: 67, task end: 86, delay: False
+Task ID: 2, task income: 85, task start: 86, task end: 98, delay: False
+Task ID: 3, task income: 88, task start: 98, task end: 110, delay: False
+Period: 7, idle time: 12
+Task ID: 0, task income: 11, task start: 11, task end: 26, delay: False
+Task ID: 1, task income: 15, task start: 26, task end: 43, delay: False
+Task ID: 2, task income: 24, task start: 43, task end: 54, delay: False
+Task ID: 3, task income: 25, task start: 54, task end: 67, delay: True
+Task ID: 4, task income: 30, task start: 67, task end: 81, delay: True
+Task ID: 5, task income: 31, task start: 81, task end: 91, delay: True
+Task ID: 6, task income: 32, task start: 91, task end: 101, delay: True
+Task ID: 7, task income: 32, task start: 101, task end: 121, delay: True
+Task ID: 8, task income: 36, task start: 121, task end: 138, delay: True
+Task ID: 9, task income: 36, task start: 138, task end: 150, delay: True
+Task ID: 10, task income: 37, task start: 150, task end: 164, delay: True
+Task ID: 11, task income: 49, task start: 164, task end: 175, delay: True
+Task ID: 12, task income: 60, task start: 175, task end: 188, delay: True
+Task ID: 13, task income: 62, task start: 188, task end: 200, delay: True
+Task ID: 14, task income: 64, task start: 200, task end: 216, delay: True
+Task ID: 15, task income: 65, task start: 216, task end: 236, delay: True
+Task ID: 16, task income: 65, task start: 236, task end: 246, delay: True
+Task ID: 17, task income: 69, task start: 246, task end: 257, delay: True
+Task ID: 18, task income: 70, task start: 257, task end: 271, delay: True
+Task ID: 19, task income: 77, task start: 271, task end: 286, delay: True
+Task ID: 20, task income: 79, task start: 286, task end: 301, delay: True
+Task ID: 21, task income: 79, task start: 301, task end: 318, delay: True
+Task ID: 22, task income: 80, task start: 318, task end: 335, delay: True
+Task ID: 23, task income: 92, task start: 335, task end: 347, delay: True
+Task ID: 24, task income: 98, task start: 347, task end: 361, delay: True
+Period: 8, idle time: 5
+Task ID: 0, task income: 4, task start: 4, task end: 24, delay: False
+Task ID: 1, task income: 5, task start: 24, task end: 37, delay: False
+Task ID: 2, task income: 7, task start: 37, task end: 56, delay: True
+Task ID: 3, task income: 11, task start: 56, task end: 68, delay: True
+Task ID: 4, task income: 12, task start: 68, task end: 79, delay: True
+Task ID: 5, task income: 12, task start: 79, task end: 92, delay: True
+Task ID: 6, task income: 16, task start: 92, task end: 103, delay: True
+Task ID: 7, task income: 18, task start: 103, task end: 122, delay: True
+Task ID: 8, task income: 18, task start: 122, task end: 139, delay: True
+Task ID: 9, task income: 19, task start: 139, task end: 149, delay: True
+Task ID: 10, task income: 19, task start: 149, task end: 169, delay: True
+Task ID: 11, task income: 23, task start: 169, task end: 188, delay: True
+Task ID: 12, task income: 23, task start: 188, task end: 204, delay: True
+Task ID: 13, task income: 28, task start: 204, task end: 217, delay: True
+Task ID: 14, task income: 30, task start: 217, task end: 233, delay: True
+Task ID: 15, task income: 31, task start: 233, task end: 243, delay: True
+Task ID: 16, task income: 37, task start: 243, task end: 261, delay: True
+Task ID: 17, task income: 41, task start: 261, task end: 271, delay: True
+Task ID: 18, task income: 42, task start: 271, task end: 283, delay: True
+Task ID: 19, task income: 48, task start: 283, task end: 300, delay: True
+Task ID: 20, task income: 51, task start: 300, task end: 317, delay: True
+Task ID: 21, task income: 58, task start: 317, task end: 327, delay: True
+Task ID: 22, task income: 61, task start: 327, task end: 338, delay: True
+Task ID: 23, task income: 69, task start: 338, task end: 350, delay: True
+Task ID: 24, task income: 74, task start: 350, task end: 364, delay: True
+Task ID: 25, task income: 76, task start: 364, task end: 380, delay: True
+Task ID: 26, task income: 82, task start: 380, task end: 390, delay: True
+Task ID: 27, task income: 83, task start: 390, task end: 404, delay: True
+Task ID: 28, task income: 87, task start: 404, task end: 424, delay: True
+Task ID: 29, task income: 88, task start: 424, task end: 442, delay: True
+Task ID: 30, task income: 93, task start: 442, task end: 459, delay: True
+Period: 9, idle time: 13
+Task ID: 0, task income: 12, task start: 12, task end: 32, delay: False
+Task ID: 1, task income: 13, task start: 32, task end: 42, delay: False
+Task ID: 2, task income: 19, task start: 42, task end: 56, delay: False
+Task ID: 3, task income: 25, task start: 56, task end: 68, delay: True
+Task ID: 4, task income: 51, task start: 68, task end: 81, delay: False
+Task ID: 5, task income: 65, task start: 81, task end: 93, delay: False
+Task ID: 6, task income: 69, task start: 93, task end: 106, delay: False
+Period: 10, idle time: 11
+Task ID: 0, task income: 10, task start: 10, task end: 23, delay: False
+Task ID: 1, task income: 18, task start: 23, task end: 43, delay: False
