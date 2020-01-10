@@ -5,7 +5,7 @@ with open('tasks_file.txt', 'r') as input_file:
     for task in input_file.readlines():
         line = task.replace('[','').replace(']','').split(',')
         interval, task_income = str(line[1]).split('.')
-        task_time = line[3]
+        task_time = line[2]
         # tasks.append((interval, task_income, line[3]))
         if int(interval) in tasks:
             tasks[int(interval)].append((int(task_income[:2]), int(task_time)))
