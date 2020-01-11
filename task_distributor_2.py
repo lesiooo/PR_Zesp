@@ -51,5 +51,3 @@ with open('tasks_file.txt', 'w', encoding='utf-8') as file:
                                        str(randrange(int(min_task_time), int(max_time_task)+1))
                                        )
         file.write(line)
-
-

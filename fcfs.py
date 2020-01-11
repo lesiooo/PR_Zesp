@@ -15,6 +15,7 @@ with open('tasks_file.txt', 'r') as input_file:
 
 
 for key, value in sorted(tasks.items()):
+
     sorted_income_tasks = sorted(value, key=lambda x: x[0])
     iterator = 0
     tasks_in_interval = len(sorted_income_tasks)
@@ -23,6 +24,8 @@ for key, value in sorted(tasks.items()):
     system_is_used = False
     count_task = 0
     idle_time = 0
+    overload_flag = 1
+    cpu_time = 0
     income_tasks = []
     next_task = None
     current_task_time_start = None
@@ -31,6 +34,12 @@ for key, value in sorted(tasks.items()):
     end_tasks = []
     income_tasks_in_time = True
     while last_task_not_end:
+        if len(income_tasks) >= 7:
+            overload_flag = 0.5
+        else:
+            overload_flag = 1
+            if cpu_time % 1 != 0:
+                cpu_time += 0.5
         if iterator in income_times:
             income_tasks_in_time = True
             while income_tasks_in_time:
@@ -46,7 +55,7 @@ for key, value in sorted(tasks.items()):
                     income_times.pop(0)
                 if iterator not in income_times:
                     income_tasks_in_time = False
-        if system_is_used and iterator == end_current_task:
+        if system_is_used and cpu_time == end_current_task:
             system_is_used = False
             end_tasks.append([current_task, current_task_time_start, iterator])
             if not income_tasks and not sorted_income_tasks:
@@ -56,10 +65,13 @@ for key, value in sorted(tasks.items()):
             current_task_time_start = iterator
             count_task += 1
             system_is_used = True
-            end_current_task = iterator + current_task[1]
+            end_current_task = cpu_time + current_task[1]
+            if end_current_task % 1 != 0:
+                end_current_task += 0.5
         if not system_is_used:
             idle_time += 1
         iterator += 1
+        cpu_time += overload_flag
     print(key, end_tasks)
     with open('end_file.txt', 'a') as output_file:
         output_file.write('Period: {}, idle time: {}, tasks: {}\n'.format(key, idle_time, len(end_tasks)))
